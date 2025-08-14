@@ -1,0 +1,20 @@
+public class cons {
+	int age;
+	String name;
+	cons(int a,String str){
+		age=a;
+		name=str;
+		
+	}
+	void display() {
+	System.out.println(age+" "+name);
+	}
+
+	public static void main(String[] args) {
+		cons obj=new cons(6,"kaviya");
+		obj.display();
+		
+
+	}
+
+}
