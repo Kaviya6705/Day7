@@ -1,0 +1,30 @@
+class grandpa{
+	void display() {
+		System.out.println("villa");
+	}
+}
+class Dad extends grandpa
+{
+	void property() {
+		System.out.println("house, land, money");
+	}
+	
+}
+class son extends Dad{
+	void show()
+	{
+		System.out.println("bike");
+	}
+}
+
+public class multi {
+
+	public static void main(String[] args) {
+		son obj=new son();
+		obj.display();
+		obj.property();
+		
+
+	}
+
+}
