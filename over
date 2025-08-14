@@ -1,0 +1,27 @@
+public class over {
+
+	
+		int age;
+		String name;
+		over(int a, String str){
+			System.out.println(a+" "+str);
+			}
+		over (float b)
+		{
+			System.out.println(b);
+		}
+		void display() 
+		{
+		System.out.println(age+" "+name);
+		}
+
+		public static void main(String[] args) {
+			over obj=new over(6,"kaviya");
+			obj.display();
+			
+
+		}
+
+
+	}
+
